@@ -73,3 +73,12 @@ input:hover {
   height: 190px;
   margin-top: 40px;
 }
+.advanceInput {
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 800px;
+  height: 190px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
