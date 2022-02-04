@@ -45,3 +45,11 @@ input {
 input:hover {
   border: 2px solid #bcbabe;
 }
+.durationInput {
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 800px;
+  height: 270px;
+  margin-top: 40px;
+}
