@@ -53,3 +53,15 @@ input:hover {
   height: 270px;
   margin-top: 40px;
 }
+.mediaInput {
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 800px;
+  height: 120px;
+  margin-top: 40px;
+}
+.mediaInput input[type="image"] {
+  width: 22px;
+  height: 22px;
+}
