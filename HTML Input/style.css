@@ -65,3 +65,11 @@ input:hover {
   width: 22px;
   height: 22px;
 }
+.optionInput {
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 800px;
+  height: 190px;
+  margin-top: 40px;
+}
