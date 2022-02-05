@@ -50,8 +50,21 @@ strong {
   flex-direction: row-reverse;
 }
 .directionColumn {
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
   width: max-content;
   height: 400px;
   flex-direction: column;
+}
+.directionColumnReverse {
+  margin: 0px 0px 10px 0px;
+  width: max-content;
+  height: 400px;
+  flex-direction: column-reverse;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.column-reverse {
+  width: 50%;
 }
