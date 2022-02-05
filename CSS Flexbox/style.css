@@ -49,3 +49,9 @@ strong {
 .directionRowReverse {
   flex-direction: row-reverse;
 }
+.directionColumn {
+  margin: 0px;
+  width: max-content;
+  height: 400px;
+  flex-direction: column;
+}
