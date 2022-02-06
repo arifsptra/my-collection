@@ -82,3 +82,6 @@ strong {
 .wrapWrap {
   flex-wrap: wrap;
 }
+.wrapNoWrap {
+  flex-wrap: no-wrap;
+}
