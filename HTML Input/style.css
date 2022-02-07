@@ -2,45 +2,130 @@
   font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px auto;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1900px;
+}
+@media (min-width: 300px) {
+  h1 {
+    font-size: 0.8rem;
+  }
+  h2,
+  input,
+  label {
+    font-size: 0.6rem;
+  }
+  .container {
+    max-width: 300px;
+  }
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2,
+  input,
+  label {
+    font-size: 0.8rem;
+  }
+  .container {
+    max-width: 500px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  input,
+  label {
+    font-size: 0.9rem;
+  }
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  input,
+  label {
+    font-size: 1.1rem;
+  }
+  .container {
+    max-width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .container {
+    max-width: 1380px;
+  }
 }
 h1 {
   margin: 40px auto;
   text-align: center;
-  font-size: 1.5rem;
   color: #fff;
   background: #0088b9;
   width: max-content;
   padding: 5px 15px;
   border-radius: 10px;
 }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
 .generalInput {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
-  height: 340px;
+  width: 100%;
 }
 h2 {
-  font-size: 1.3rem;
   color: #0088b9;
   padding-bottom: 20px;
 }
 .left {
   width: 50%;
-  float: left;
+  height: max-content;
 }
 .right {
   width: 50%;
-  float: right;
+  height: max-content;
 }
 input {
   margin-top: 2px;
   margin-bottom: 10px;
   padding: 4px 8px;
   border-radius: 6px;
-  width: 300px;
+  width: 80%;
   border: 2px solid #f1f1f2;
   transition: all 0.3s;
+}
+@media only screen and (max-width: 768px) {
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+  }
 }
 input:hover {
   border: 2px solid #bcbabe;
@@ -49,36 +134,32 @@ input:hover {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
-  height: 270px;
+  width: 100%;
   margin-top: 40px;
 }
 .mediaInput {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
-  height: 120px;
+  width: 100%;
   margin-top: 40px;
 }
 .mediaInput input[type="image"] {
-  width: 22px;
-  height: 22px;
+  width: 50px;
+  height: 40px;
 }
 .optionInput {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
-  height: 190px;
+  width: 100%;
   margin-top: 40px;
 }
 .advanceInput {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
-  height: 190px;
+  width: 100%;
   margin-top: 40px;
   margin-bottom: 50px;
 }

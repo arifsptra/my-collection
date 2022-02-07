@@ -18,8 +18,52 @@ h1 {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
+  width: 100%;
   box-sizing: border-box;
+}
+@media (min-width: 300px) {
+  h1 {
+    font-size: 0.8rem;
+  }
+  h2 {
+    font-size: 0.6rem;
+  }
+  .container {
+    max-width: 300px;
+  }
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+  }
+  .container {
+    max-width: 500px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .container {
+    max-width: 800px;
+  }
 }
 h2 {
   font-size: 1.3rem;
@@ -43,11 +87,49 @@ strong {
   flex-direction: row;
 }
 .squere {
-  width: 60px;
-  height: 60px;
   background: #0088b9;
   margin: 10px;
   border-radius: 8px;
+}
+@media (min-width: 300px) {
+  .squere {
+    width: 20px;
+    height: 20px;
+  }
+  .directionColumn,
+  .directionColumnReverse {
+    height: 200px;
+  }
+}
+@media (min-width: 576px) {
+  .squere {
+    width: 30px;
+    height: 30px;
+  }
+  .directionColumn,
+  .directionColumnReverse {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .squere {
+    width: 40px;
+    height: 40px;
+  }
+  .directionColumn,
+  .directionColumnReverse {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .squere {
+    width: 50px;
+    height: 50px;
+  }
+  .directionColumn,
+  .directionColumnReverse {
+    height: 350px;
+  }
 }
 .directionRowReverse {
   flex-direction: row-reverse;
@@ -55,13 +137,11 @@ strong {
 .directionColumn {
   margin: 0px 0px 10px 0px;
   width: max-content;
-  height: 400px;
   flex-direction: column;
 }
 .directionColumnReverse {
   margin: 0px 0px 10px 0px;
   width: max-content;
-  height: 400px;
   flex-direction: column-reverse;
 }
 .column {
@@ -76,7 +156,7 @@ strong {
   padding: 20px;
   border: 2px solid #f1f1f2;
   border-radius: 10px;
-  width: 800px;
+  width: 100%;
   box-sizing: border-box;
 }
 .wrapWrap {
