@@ -194,10 +194,19 @@ strong {
 }
 .grow025 .squere {
   flex-grow: 0.25;
-} 
+}
 .grow05 .squere {
   flex-grow: 0.5;
 }
 .grow1 .squere {
+  flex-grow: 1;
+}
+.growSpecific .squere:nth-of-type(1) {
+  flex-grow: 0;
+}
+.growSpecific .squere:nth-of-type(2) {
+  flex-grow: 0.25;
+}
+.growSpecific .squere:nth-of-type(3) {
   flex-grow: 1;
 }
