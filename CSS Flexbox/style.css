@@ -195,3 +195,6 @@ strong {
 .grow025 .squere {
   flex-grow: 0.25;
 } 
+.grow05 .squere {
+  flex-grow: 0.5;
+}
