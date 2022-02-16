@@ -1,8 +1,11 @@
+/* All Style */
 * {
   font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px auto;
 }
+
+/* Stylw for Heading 1 */
 h1 {
   margin: 40px auto;
   text-align: center;
@@ -13,14 +16,8 @@ h1 {
   padding: 5px 15px;
   border-radius: 10px;
 }
-.flexDirection {
-  margin-bottom: 50px;
-  padding: 20px;
-  border: 2px solid #f1f1f2;
-  border-radius: 10px;
-  width: 100%;
-  box-sizing: border-box;
-}
+
+/* Responsive Container, Heading 1 and Heading 2 */
 @media (min-width: 300px) {
   h1 {
     font-size: 0.8rem;
@@ -65,6 +62,16 @@ h1 {
     max-width: 800px;
   }
 }
+
+/* Flex Direction */
+.flexDirection {
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
 h2 {
   font-size: 1.3rem;
   color: #0088b9;
@@ -91,6 +98,8 @@ strong {
   margin: 10px;
   border-radius: 8px;
 }
+
+/* Responsive for Direction Column and Squere */
 @media (min-width: 300px) {
   .squere {
     width: 20px;
@@ -151,6 +160,8 @@ strong {
 .column-reverse {
   width: 50%;
 }
+
+/* Flex Wrap */
 .flexWrap {
   margin-bottom: 50px;
   padding: 20px;
@@ -167,4 +178,17 @@ strong {
 }
 .wrapWrapReverse {
   flex-wrap: wrap-reverse;
+}
+
+/* Flex Grow */
+.flexGrow {
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.grow .squere {
+  flex-grow: 0;
 }
