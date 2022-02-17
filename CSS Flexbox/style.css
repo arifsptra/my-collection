@@ -266,3 +266,6 @@ strong {
 .spaceBetween {
   justify-content: space-between;
 }
+.spaceAround {
+  justify-content: space-around;
+}
