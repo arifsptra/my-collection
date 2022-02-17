@@ -254,6 +254,9 @@ strong {
   width: 100%;
   box-sizing: border-box;
 }
-.flex-start {
+.flexStart {
   justify-content: flex-start;
+}
+.flexEnd {
+  justify-content: flex-end;
 }
