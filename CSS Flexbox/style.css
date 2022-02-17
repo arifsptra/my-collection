@@ -263,3 +263,6 @@ strong {
 .center {
   justify-content: center;
 }
+.spaceBetween {
+  justify-content: space-between;
+}
