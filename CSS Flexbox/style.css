@@ -244,3 +244,16 @@ strong {
 .shrinkSpecific .squere:nth-of-type(6) {
   flex-shrink: 6;
 }
+
+/* Justify Content */
+.justifyContent {
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.flex-start {
+  justify-content: flex-start;
+}
