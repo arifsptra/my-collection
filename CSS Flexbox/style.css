@@ -260,3 +260,6 @@ strong {
 .flexEnd {
   justify-content: flex-end;
 }
+.center {
+  justify-content: center;
+}
