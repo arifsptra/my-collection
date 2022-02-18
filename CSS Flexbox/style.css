@@ -294,22 +294,22 @@ strong {
   box-sizing: border-box;
 }
 @media (min-width: 300px) {
-  .alignStretch, .alignStart, .alignEnd {
+  .alignStretch, .alignStart, .alignEnd, .alignCenter {
     height: 200px;
   }
 }
 @media (min-width: 576px) {
-  .alignStretch, .alignStar, .alignEnd {
+  .alignStretch, .alignStar, .alignEnd, .alignCenter {
     height: 250px;
   }
 }
 @media (min-width: 768px) {
-  .alignStretch, .alignStart, .alignEnd {
+  .alignStretch, .alignStart, .alignEnd, .alignCenter {
     height: 300px;
   }
 }
 @media (min-width: 992px) {
-  .alignStretch, .alignStart, .alignEnd {
+  .alignStretch, .alignStart, .alignEnd, .alignCenter {
     height: 350px;
   }
 }
@@ -327,4 +327,9 @@ strong {
   width: 70px;
   flex-wrap: wrap;
   align-content: flex-end;
+}
+.alignContent .alignCenter {
+  width: 70px;
+  flex-wrap: wrap;
+  align-content: center;
 }
