@@ -294,22 +294,22 @@ strong {
   box-sizing: border-box;
 }
 @media (min-width: 300px) {
-  .alignStretch, .alignStart {
+  .alignStretch, .alignStart, .alignEnd {
     height: 200px;
   }
 }
 @media (min-width: 576px) {
-  .alignStretch, .alignStart {
+  .alignStretch, .alignStar, .alignEnd {
     height: 250px;
   }
 }
 @media (min-width: 768px) {
-  .alignStretch, .alignStart {
+  .alignStretch, .alignStart, .alignEnd {
     height: 300px;
   }
 }
 @media (min-width: 992px) {
-  .alignStretch, .alignStart {
+  .alignStretch, .alignStart, .alignEnd {
     height: 350px;
   }
 }
@@ -322,4 +322,9 @@ strong {
   width: 70px;
   flex-wrap: wrap;
   align-content: flex-start;
+}
+.alignContent .alignEnd {
+  width: 70px;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
