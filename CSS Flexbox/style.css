@@ -269,3 +269,38 @@ strong {
 .spaceAround {
   justify-content: space-around;
 }
+
+/* Align Content */
+.alignContent {
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 2px solid #f1f1f2;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 300px) {
+  .stretch {
+    height: 200px;
+  }
+}
+@media (min-width: 576px) {
+  .stretch {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .stretch {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .stretch {
+    height: 350px;
+  }
+}
+.stretch {
+  width: 150px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
