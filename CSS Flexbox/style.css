@@ -294,22 +294,22 @@ strong {
   box-sizing: border-box;
 }
 @media (min-width: 300px) {
-  .alignStretch, .alignStart, .alignEnd, .alignCenter {
+  .alignStretch, .alignStart, .alignEnd, .alignCenter, .alignBetween {
     height: 200px;
   }
 }
 @media (min-width: 576px) {
-  .alignStretch, .alignStar, .alignEnd, .alignCenter {
+  .alignStretch, .alignStar, .alignEnd, .alignCenter, .alignBetween {
     height: 250px;
   }
 }
 @media (min-width: 768px) {
-  .alignStretch, .alignStart, .alignEnd, .alignCenter {
+  .alignStretch, .alignStart, .alignEnd, .alignCenter, .alignBetween {
     height: 300px;
   }
 }
 @media (min-width: 992px) {
-  .alignStretch, .alignStart, .alignEnd, .alignCenter {
+  .alignStretch, .alignStart, .alignEnd, .alignCenter, .alignBetween {
     height: 350px;
   }
 }
@@ -332,4 +332,9 @@ strong {
   width: 70px;
   flex-wrap: wrap;
   align-content: center;
+}
+.alignContent .alignBetween {
+  width: 70px;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
