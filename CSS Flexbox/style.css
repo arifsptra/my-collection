@@ -294,22 +294,42 @@ strong {
   box-sizing: border-box;
 }
 @media (min-width: 300px) {
-  .alignStretch, .alignStart, .alignEnd, .alignCenter, .alignBetween {
+  .alignStretch,
+  .alignStart,
+  .alignEnd,
+  .alignCenter,
+  .alignBetween,
+  .alignAround {
     height: 200px;
   }
 }
 @media (min-width: 576px) {
-  .alignStretch, .alignStar, .alignEnd, .alignCenter, .alignBetween {
+  .alignStretch,
+  .alignStar,
+  .alignEnd,
+  .alignCenter,
+  .alignBetween,
+  .alignAround {
     height: 250px;
   }
 }
 @media (min-width: 768px) {
-  .alignStretch, .alignStart, .alignEnd, .alignCenter, .alignBetween {
+  .alignStretch,
+  .alignStart,
+  .alignEnd,
+  .alignCenter,
+  .alignBetween,
+  .alignAround {
     height: 300px;
   }
 }
 @media (min-width: 992px) {
-  .alignStretch, .alignStart, .alignEnd, .alignCenter, .alignBetween {
+  .alignStretch,
+  .alignStart,
+  .alignEnd,
+  .alignCenter,
+  .alignBetween,
+  .alignAround {
     height: 350px;
   }
 }
@@ -337,4 +357,9 @@ strong {
   width: 70px;
   flex-wrap: wrap;
   align-content: space-between;
+}
+.alignContent .alignAround {
+  width: 70px;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
